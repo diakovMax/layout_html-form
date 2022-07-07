@@ -55,7 +55,7 @@
           
           <input 
             type="date" 
-            name="hoay" 
+            name="dateOfBirth" 
           > 
         </label>
 
@@ -64,7 +64,7 @@
         
           <input 
             type="checkbox" 
-            name="HOAY" 
+            name="acceptTheTerm" 
             required
           > 
         </label>
@@ -77,7 +77,7 @@
           
           <input 
             type="email" 
-            name="Surname" 
+            name="emailRegistration" 
             placeholder="email@example.com" 
             required
           > 
@@ -88,7 +88,7 @@
           
           <input 
             type="password" 
-            name="Name" 
+            name="passwordForm" 
             minlength="6" 
             maxlength="20"
           > 
@@ -99,20 +99,23 @@
         <legend>An interesting fact about you!</legend>
         <label class="form-field">
           Do you love cats? 
+          <label>  
+            <input 
+              type="radio" 
+              name="loveCats" 
+              value="y"
+            > 
+            Yes
+          </label>
           
-          <input 
-            type="radio" 
-            name="loveCats" 
-            value="y"
-          > 
-          Yes
-
-          <input 
-            type="radio"
-            name="likeCats" 
-            value="n"
-          > 
-          No
+          <label>
+            <input 
+              type="radio"
+              name="loveCats" 
+              value="n"
+            > 
+            No
+          </label>
         </label>
 
         <label class="form-field">
@@ -120,7 +123,7 @@
           
           <input 
             type="color" 
-            name="favouriteColor" 
+            name="favoriteColor" 
             value="#000000"
           >
         </label>
